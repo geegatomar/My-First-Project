@@ -1,6 +1,6 @@
 all:
 	@$(RM) -f README.md	
-	@echo "#Guessing Game" >> README.md
+	@echo "# Guessing Game" >> README.md
 	@echo "\n\n" >> README.md
 	@echo $(shell date) >> README.md
 	@echo "\n\n" >> README.md
